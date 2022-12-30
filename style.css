@@ -1,0 +1,317 @@
+body
+{
+    background: var(--unnamed-color-3d087b) 0% 0% no-repeat padding-box;
+    background: #3D087B 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 5px;
+    padding-right:10px;
+    height: 600px;
+}
+.clock
+{
+    width: 204px;
+    height: 77px;
+    background-image: url(./clock_logo.png);
+    background-repeat:no-repeat ;
+    position: relative;
+    top: 16px;
+    left: 117px;
+    opacity: 1;
+}
+.timing_container
+{   
+    position: relative;
+    top: -61px;
+    left: 593px;
+    width: 536px;
+    height: 108px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 2;
+}
+.item
+{
+    width: 80px;
+    height: 90px;
+    background-image: url(./timeline.jpg);
+}
+.meridian
+{
+    width: 80px;
+    height: 90px;
+    background-image: url(./AM_svg.jpg);
+}
+.zindex1
+{
+    position: relative;
+    top:-136px;
+    left: 654px;
+    width: 416px;
+    height: 90px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.71;
+    z-index:1;
+}
+.zindex2
+{   
+    position: relative;
+    bottom: 211px;
+    left: 674px;
+    width: 379px;
+    height: 90px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 0.22;
+    z-index:-1;
+}
+.timing_item7
+{
+    
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    font: normal normal normal 36px/43px Barlow;
+    letter-spacing: 0px;
+    padding-top:20px;
+    padding-left: 12px;
+    color: #FFFFFF;
+    opacity: 1;
+    box-sizing: border-box;
+}
+#item1
+{
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-36)/var(--unnamed-line-spacing-43) var(--unnamed-font-family-barlow);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-8a11bf);
+    text-align: center;
+    font-size: 28px;
+    letter-spacing: 0px;
+    padding-top: 13px;
+    color: #8A11BF;
+    opacity: 1;
+}
+.setup
+{
+    position: relative;
+    bottom:250px;
+    right: -122px;
+    width: 457px;
+    height: 275px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+}
+.table
+{
+    cell-spacing:
+}
+.breakfast
+{   
+    width: 536px;
+    height: 80px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    font-family: bauhaus-hv-bt;
+    border-radius: 10px;
+    position: relative;
+    bottom : 474px;
+    left: 591px;
+    opacity: 1;
+}
+#breakfast
+{
+    font-size: 25px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: bauhaus-hv-bt;
+    color: #8E53F0;
+    text-transform: uppercase;
+    position: relative;
+    top: 19px;
+    opacity: 1;
+} 
+.image
+{
+    width: 536px;
+    height: 309px;
+    background:transparent url('./Component\ 30\ –\ 1.jpg') 0% 0% no-repeat padding-box;
+    position: relative;
+    bottom: 460px;
+    left:592px;
+    opacity: 1;
+}
+.gm
+{
+    width: 460px;
+    height: 60px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background:purple  0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    position: relative;
+    bottom:632px;
+    left: 119px;    
+    opacity: 0.23;
+}
+#gm
+{
+    font-size: larger;
+    font-weight: bolder;
+    color:whitesmoke;
+    padding-top: 17px;
+    text-align: center;
+}
+.alarm
+{
+    width: 246px;
+    height: 50px;
+    background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    position: relative;
+    bottom:622px;
+    left: 120px;
+    opacity: 1;
+}
+#alarm
+{
+    font-size: larger;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 11px;
+}
+.wakeup
+{
+    width: 198px;
+    height:132px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    border: 1px solid var(--unnamed-color-ededed);
+    background: purple 0% 0% no-repeat padding-box; 
+    border: 1px solid #EDEDED; 
+    border-radius: 10px;
+    position:relative;
+    bottom:672px;
+    left: 381px;
+    opacity: 0.23;
+    
+}
+.addtext
+{
+    color:white;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+    line-height: 21px;
+}
+@media screen and (max-width: 800px)
+{
+    .timing_container
+    {
+        width:760px;
+        /* height: 150px; */
+        position: relative;
+        top: 70px;
+        left:30px;
+    }
+    .zindex1
+    {
+        width:650px;
+        position: relative;
+        top: 05px;
+        left:90px;
+    }
+    .zindex2
+    {
+        width:550px;
+        position: relative;
+        bottom: 65px;
+        left:140px;
+    }
+    .setup
+    {
+        width: 760px;
+        position: relative;
+        top:85px;
+        left:30px;
+        font-size: x-large;
+    }
+    .gm
+    {
+        width: 760px;
+        height:100px ;
+        position: relative;
+        bottom:730px;
+        left:30px;
+        font-size: larger;
+    }
+    #gm
+    {
+        padding-top: 30px;
+        font-size: xx-large;
+    }
+    .breakfast
+    {
+        width: 760px;
+        height:100px ;
+        position: relative;
+        top:120px;
+        left:30px;
+        font-size: larger;
+    }
+    #breakfast
+    {
+        padding-top: 18px;
+        font-size: 27px;
+    }
+    .image
+    {
+        position: relative;
+        top:150px;
+        left:30px;
+    }
+    #image
+    {
+        width:760px
+    }
+    .alarm
+    {
+        position: relative;
+        top:245px;
+        left:105px;
+    }
+    #alarm
+    {        
+        font-size:xx-large;
+    }
+    .wakeup
+    {
+        width: 300px;
+        height:148px ;
+        position: relative;
+        top:195px;
+        left:390px;
+    }
+    .addtext
+    {
+        font-size: x-large;
+        line-height: 25px;
+    }
+}
